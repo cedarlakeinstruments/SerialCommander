@@ -39,9 +39,9 @@
             // 
             // buttonSend
             // 
-            this.buttonSend.Location = new System.Drawing.Point(125, 55);
+            this.buttonSend.Location = new System.Drawing.Point(140, 43);
             this.buttonSend.Name = "buttonSend";
-            this.buttonSend.Size = new System.Drawing.Size(75, 40);
+            this.buttonSend.Size = new System.Drawing.Size(90, 74);
             this.buttonSend.TabIndex = 2;
             this.buttonSend.Text = "Set";
             this.buttonSend.UseVisualStyleBackColor = true;
@@ -109,7 +109,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(287, 185);
+            this.ClientSize = new System.Drawing.Size(327, 185);
             this.Controls.Add(this.listBoxPorts);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.checkBox3);

@@ -21,7 +21,7 @@ namespace SerialCommander
         {
             InitializeComponent();
             string[] ports = SerialPort.GetPortNames();
-            if (ports != null)
+            if (ports.Length != 0)
             {
                 listBoxPorts.Items.AddRange(ports);
             }
